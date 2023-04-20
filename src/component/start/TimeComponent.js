@@ -31,8 +31,8 @@ const TimeComponent = () => {
       date = "0" + date;
     }
 
-    if (hours === 0) {
-      hours = 12;
+  if (hours > 12) {
+      hours = hours - 12;
     }
     setHourOfTime(hours);
 
