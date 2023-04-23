@@ -129,6 +129,19 @@ export default class SimpleSlider extends Component {
               />
             </a>
           </div>
+           <div>
+            <h3>movieList</h3>
+            <a
+              href="https://thseogns.github.io/frizm/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img
+                src={`${process.env.PUBLIC_URL}/img/project/movieList.png`}
+                alt="movieList"
+              />
+            </a>
+          </div>
         </Slider>
       </>
     );
