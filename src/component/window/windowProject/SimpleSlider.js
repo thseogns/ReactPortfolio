@@ -132,7 +132,7 @@ export default class SimpleSlider extends Component {
            <div>
             <h3>movieList</h3>
             <a
-              href="https://thseogns.github.io/frizm/"
+              href="https://glistening-frangollo-0aa3f6.netlify.app/"
               target="_blank"
               rel="noreferrer"
             >
