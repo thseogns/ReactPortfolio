@@ -90,6 +90,19 @@ export default class SimpleSlider extends Component {
             </a>
           </div>
           <div>
+            <h3>TsTodoList</h3>
+            <a
+              href="https://creative-nasturtium-945124.netlify.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img
+                src={`${process.env.PUBLIC_URL}/img/project/TsTodoList.png`}
+                alt="tire"
+              />
+            </a>
+          </div>
+          <div>
             <h3>타이어테크</h3>
             <a
               href="https://thseogns.github.io/tire/"
