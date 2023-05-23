@@ -1,8 +1,9 @@
 /** @format */
-
 .headerCover {
-  width: 100%;
+  width: 90%;
   background-color: #eee;
+  position: fixed;
+  z-index: 999999;
 }
 .header {
   display: flex;
