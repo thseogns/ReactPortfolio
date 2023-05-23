@@ -31,10 +31,12 @@ const initialState = {
   name: "바탕화면",
   toggle: "",
   number: number,
+  alt: "",
 };
 
 function valueReducer(state = initialState, action) {
-  console.log("보내기전값", state.number);
+  console.log("보내기전값", action);
+
   switch (action.type) {
     case "바탕화면":
       return { ...state, name: "바탕화면", toggle: false };
@@ -64,9 +66,13 @@ function valueReducer(state = initialState, action) {
           toggle: action.toggle,
         };
       }
+    case "MOUSEHOVER":
+      return { ...state, alt: action.alt };
+
     default:
       return state;
   }
 }
 
 export default ValuePro;
+
