@@ -95,7 +95,7 @@ const SimpleSlider = () => {
           >
             <img
               src={`${process.env.PUBLIC_URL}/img/project/Hnm.png`}
-              alt="Hnm"
+              alt="hnm"
               onMouseEnter={handleMouseHover}
               onMouseOut={handleMouseOut}
             />
