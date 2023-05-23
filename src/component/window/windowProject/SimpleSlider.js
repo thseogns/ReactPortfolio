@@ -98,7 +98,7 @@ export default class SimpleSlider extends Component {
             >
               <img
                 src={`${process.env.PUBLIC_URL}/img/project/TsTodoList.png`}
-                alt="tire"
+                alt="tsTodo"
               />
             </a>
           </div>
