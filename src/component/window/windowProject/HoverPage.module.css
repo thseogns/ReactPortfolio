@@ -1,0 +1,20 @@
+/** @format */
+
+.fade {
+  background-color: rgba(56, 56, 56, 0.7);
+  color: rgb(255, 255, 255);
+  position: absolute;
+  left: calc(50% - 250px);
+  bottom: calc(50% - 55px);
+  padding: 15px 35px;
+  width: 500px;
+  border-radius: 12px;
+  pointer-events: none;
+  height: 110px;
+  display: flex;
+  align-items: center;
+  border: 1px solid rgba(148, 148, 148, 0.7);
+}
+.fade p {
+  line-height: 1.8;
+}
